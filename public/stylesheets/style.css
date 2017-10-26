@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+  font-family: 'Droid Serif', serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table {
+  margin-top: 30px;
+  border-collapse: collapse;
+
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.container {
+  text-align: center;
+  margin: 10% auto 5% auto;
+  width: 750px;
+}
+
+.disable {
+  display: none;
+}
+
+.btn-group .button {
+    background-color: inherit;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+}
+
+.button:focus {
+   outline: none;
+}
+
+#online {
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+
+}
+
+#offline {
+  border: 1px solid red;
+  color: red;
+}
+
+#all {
+  border: 1px solid black;
+  color: black;
+}
+
+#online:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#offline:hover {
+  background-color: red;
+  color: white;
+}
+
+#all:hover {
+  background-color: black;
+  color: white;
+}
+
+#streamer:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
