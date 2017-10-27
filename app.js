@@ -5,7 +5,7 @@ const express = require("express"),
 app.use(express.static(__dirname + "/public"));
 app.set("view engine","ejs");
 
-
+//Fetch the streamer data and send to the index.ejs
 
 app.get("/", function(req,res){
     let streams = [];
